@@ -14,15 +14,13 @@ const IntroSection = () => {
 						<br />
 						<TypeAnimation
 							sequence={[
+								'Développeur Web,',
+								1000,
+								'spécialisée en Front-end,',
+								1000,
+								'à votre service !',
+								1000,
 								
-								'Tamsin,',
-								1000, 
-								'Développeur Web',
-								1000,
-								'à votre service',
-								1000,
-								"n'hésitez pas à me contacter !",
-								1000,
 							]}
 							wrapper='span'
 							speed={50}

@@ -26,6 +26,39 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* .progressBar{
+  position:relative;
+  overflow: hidden;
+  width:350px;
+  height:35px;
+  border-radius: 5px;
+  background-color: pink;
+
+}
+.progressPercent {
+font-weight: 600;
+position:absolute;
+left:50%;
+top:50%;
+transform: translate(-50%, -50%);
+color: yellow;
+
+
+}
+
+.btn {
+  display: block;
+  margin: 5rem auto;
+  border: none;
+  border-radius: 3px;
+  /* outline: none; */
+  /* width: 100px;
+  height: 40px;
+  background-color: blue;
+ 
+} */ 
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
