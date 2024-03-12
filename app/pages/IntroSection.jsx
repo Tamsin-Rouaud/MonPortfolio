@@ -58,7 +58,7 @@ const IntroSection = () => {
 						</button>
 						<button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-900 via-primary-700  to-thirdly-500 hover:bg-slate-800 text-white  mt-3'>
 							<span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
-								<Link href='/cvComplet.pdf' download target='_blank'>
+								<Link href='/cv.pdf' download target='_blank'>
 									Télécharger mon CV
 								</Link>
 							</span>
