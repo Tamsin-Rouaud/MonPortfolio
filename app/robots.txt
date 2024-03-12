@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+# Exemples d'instructions pour les moteurs de recherche
+# Disallow: /chemin-interdit/
+# Allow: /
