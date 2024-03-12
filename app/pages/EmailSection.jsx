@@ -50,8 +50,9 @@ const EmailSection = () => {
 				<h3 className='text-xl font-bold text-white my-2'>Contactez-moi</h3>
 				<p className='text-[#ABD7BE] mb-4 max-w-md '>
 					Je recherche des opportunités de travail et suis prête à vous aider
-					dans le développement de votre site internet, alors n'hésitez pas à me
-					contacter pour toutes informations !
+					dans le développement de votre site internet, ou tout autre projet en
+					relation avec ce le domaine du web. Contactez moi pour toutes
+					informations !
 				</p>
 				<div className='socials flex flex-row gap-2'>
 					<Link href='https://github.com/tamsin-rouaud' target='_blank'>
