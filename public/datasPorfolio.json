@@ -1,0 +1,94 @@
+[
+	{
+		"projects": [
+			{
+				"id": 1,
+				"title": "Application de location entre particulier - Kasa",
+				"description": "Au cours de ce projet, j'ai développé le front-end d'une application de location immobilière en utilisant React et React Router. Axé sur la logique de présentation des données, j'ai créé des composants React, mis en place la navigation entre les pages avec React Router, et utilisé Sass pour gérer le CSS et implémenter des animations. Le projet s'est concentré sur le développement front-end, en se basant sur des maquettes Figma et en utilisant des données simulées d'un fichier JSON. En tant que développeur front-end freelance pour Kasa, leader de la location d’appartements en France, cette expérience a été une opportunité précieuse pour ajouter une référence solide à mon portfolio.",
+				"image": "/images/projects/kasa-capture1.webp",
+				"tag": ["Web", "Mobile"],
+				"gitUrl": "https://github.com/Tamsin-Rouaud/Kasa",
+				"previewUrl": [
+					"/images/projects/kasa-capture1.webp",
+					"/images/projects/kasa-capture2.webp",
+					"/images/projects/kasa-capture3.webp"
+				]
+			},
+			{
+				"id": 2,
+				"title": "Portfolio photographe - Nina Carducci",
+				"description": "Pendant ce projet en tant que développeur freelance, j'ai optimisé le référencement d'un site de photographie, améliorant sa performance et son accessibilité. J'ai utilisé des outils tels que Lighthouse et Wave pour identifier les problèmes de chargement et de référencement. Les recommandations proposées ont porté sur l'optimisation de la vitesse de chargement, la structure du code, et le référencement. En appliquant ces recommandations, j'ai modifié le code du site pour améliorer ses performances et son accessibilité. Le projet a culminé avec la création d'un rapport détaillé illustrant les résultats avant et après les modifications.",
+				"image": "/images/projects/nina-seo-capture1.webp",
+				"tag": ["Web", "Mobile"],
+				"gitUrl": "https://github.com/Tamsin-Rouaud/NinaCarducci",
+				"previewUrl": [
+					"/images/projects/nina-seo-capture1.webp",
+					"/images/projects/nina-seo-capture2.webp",
+					"/images/projects/nina-seo-capture3.webp"
+				]
+			},
+			{
+				"id": 3,
+				"title": "Application Web de notation de livres - Mon Vieux Grimoire",
+				"description": "Au cours de ce projet j'ai développé le back-end d'un site de notation de livres, \"Mon Vieux Grimoire\", en collaboration avec un développeur front-end. Utilisant Express et MongoDB, j'ai créé un serveur, mis en place la communication avec la base de données, et développé des opérations CRUD sécurisées pour la gestion des livres et des notations. J'ai implémenté un système d'authentification, optimisé le téléchargement d'images, et suivi les bonnes pratiques du Green Code pour réduire l'empreinte écologique du site. Le projet a utilisé Mongoose pour modéliser les données MongoDB. Mon travail a été présenté à l'équipe et au client après une collaboration étroite avec le développeur front-end.",
+				"image": "/images/projects/grimoire-capture1.webp",
+				"tag": ["Web"],
+				"gitUrl": "https://github.com/Tamsin-Rouaud/MonVieuxGrimoire",
+				"previewUrl": ["/images/projects/grimoire-capture1.webp",
+				"/images/projects/grimoire-capture2.webp",
+				"/images/projects/grimoire-capture3.webp",
+				"/images/projects/grimoire-capture4.webp"
+				]
+			},
+			{
+				"id": 4,
+				"title": "Développement d'une page statique en HTML/CSS - Booki",
+				"description": "J'ai réalisé ce projet consistant à créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Les maquettes Figma pour mobile, tablette et desktop, ainsi qu'une note de synthèse, ont été fournies pour guider l'intégration responsive. La collaboration avec la CTO Sarah et l'UI designer Loïc de la start-up Booki a été essentielle. Le défi était de ne pas utiliser le code généré par Figma, et la résolution impliquait la création méticuleuse d'un code HTML et CSS original. Ce projet a renforcé mes compétences en design responsive, crucial dans le développement web moderne, tout en posant les bases pour devenir un développeur front-end compétent.",
+				"image": "/images/projects/booki-capture1.webp",
+				"tag": ["Web", "Mobile"],
+				"gitUrl": "https://github.com/Tamsin-Rouaud/BOOKI",
+				"previewUrl": [
+					"/images/projects/booki-capture1.webp",
+					"/images/projects/booki-capture2.webp"
+				]
+			},
+			{
+				"id": 5,
+				"title": "Création d'une interface administrateur - Portfolio Architecte Sophie Buel",
+				"description": "Ce projet m'a conduit à créer une page web dynamique pour le site d'une architecte d'intérieur en utilisant JavaScript et en interagissant avec une API. Travaillant sur le Front-End, j'ai développé la présentation des travaux de l'architecte à partir du HTML fourni, incluant la gestion des événements utilisateurs et la manipulation du DOM avec JavaScript. J'ai également créé une page de connexion pour l'administrateur et une modale pour uploader des médias, tous deux développés from scratch. L'expérience a inclus l'utilisation de Figma pour les maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version.",
+				"image": "/images/projects/architecte-capture1.webp",
+				"tag": ["Projets", "Web", "Mobile"],
+				"gitUrl": "https://github.com/Tamsin-Rouaud/Portfolio-architecte-sophie-bluel",
+
+				"previewUrl": [
+					"/images/projects/architecte-capture1.webp",
+					"/images/projects/architecte-capture2.webp",
+					"/images/projects/architecte-capture3.webp",
+					"/images/projects/architecte-capture4.webp",
+					"/images/projects/architecte-capture5.webp",
+					"/images/projects/architecte-capture6.webp"
+				]
+			}
+		],
+
+		"skillsAndFormation": {
+			"skills": [
+				"JavaScript",
+				"HTML/CSS",
+				"React.js",
+				"Next.js",
+				"Node.js",
+				"TailwindCSS",
+				"Express.js",
+				"MongoDB",
+				"Mongoose",
+				"VSCode",
+				"Github",
+				"AdobeXD",
+				"Photoshop",
+				"Figma"
+			],
+			"formation": ["Langue Maternelle anglais", "BAC"]
+		}
+	}
+]
