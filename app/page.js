@@ -27,7 +27,10 @@ export default function Home() {
 				{/* Balises pour améliorer le référencement (SEO) */}
 				<meta name='viewport' content='width=device-width, initial-scale=1.0' />
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href='URL_de_votre_page_canonique' />
+				<link
+					rel='canonical'
+					href='https://mon-portfolio-wxtt-six.vercel.app/'
+				/>
 
 				{/* Balises pour les réseaux sociaux (Open Graph) */}
 				<meta property='og:title' content='Portfolio de Tamsin ROUAUD' />
@@ -37,10 +40,11 @@ export default function Home() {
 				/>
 				<meta property='og:image' content='/public/images/avatar-photo.webp' />
 				<meta property='og:image:alt' content='Mon avatar' />
-				<meta property='og:url' content='URL_de_votre_page_canonique' />
+				<meta
+					property='og:url'
+					content='https://mon-portfolio-wxtt-six.vercel.app/'
+				/>
 				<meta property='og:type' content='website' />
-
-				
 			</Head>
 			<Navbar />
 			<div className='container mt-24 mx-auto px-12 py-4'>
