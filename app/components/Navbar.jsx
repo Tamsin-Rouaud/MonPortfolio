@@ -34,13 +34,14 @@ const Navbar = () => {
 				<div className='mobile-menu block lg:hidden '>
 					{!navbarOpen ? (
 						<button
+							aria-label='Affichage du menu'
 							onClick={() => setNavbarOpen(true)}
 							className='text-slate-200 flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white'
 						>
 							<Bars3Icon className='h-5 w-5' />
 						</button>
 					) : (
-						<button
+						<button aria-label='Fermeture du menu'
 							onClick={() => setNavbarOpen(false)}
 							className=' flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'
 						>

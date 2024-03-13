@@ -1,14 +1,14 @@
 const ProjectTag = ({ name, onClick, isSelected }) => {
-	const buttonStyles = `text-white border-${
-		isSelected ? 'primary-700' : 'slate-800 hover:border-white'
-	} font-bold rounded-full border-2 px-6 py-2 text-2xl cursor-pointer`;
-
+	const buttonStyles = isSelected
+		? 'text-white border-4 border-primary-500'
+		: 'text-[#ADB7BE] border-slate-600 hover:border-white';
 	return (
-		<div>
-			<button className={buttonStyles} onClick={() => onClick(name)}>
-				{name}
-			</button>
-		</div>
+		<button
+			className={`${buttonStyles} rounded-full border-4 px-6 py-3 text-xl cursor-pointer`}
+			onClick={() => onClick(name)}
+		>
+			{name}
+		</button>
 	);
 };
 

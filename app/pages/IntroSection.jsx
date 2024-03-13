@@ -53,10 +53,10 @@ const IntroSection = () => {
 						Une idée en tête, un projet de site ? Vous êtes au bon endroit.
 					</p>
 					<div>
-						<button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-900 via-primary-700  to-thirdly-500 font-bold text-white hover:bg-slate-200'>
+						<button aria-label='Envoyez moi un message' className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-900 via-primary-700  to-thirdly-500 font-bold text-white hover:bg-slate-200'>
 							<Link href={href}>Envoyez-moi un message</Link>
 						</button>
-						<button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-900 via-primary-700  to-thirdly-500 hover:bg-slate-800 text-white  mt-3'>
+						<button aria-label='Téléchargez mon CV' className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-900 via-primary-700  to-thirdly-500 hover:bg-slate-800 text-white  mt-3'>
 							<span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
 								<Link href='/cv.pdf' download target='_blank'>
 									Télécharger mon CV
