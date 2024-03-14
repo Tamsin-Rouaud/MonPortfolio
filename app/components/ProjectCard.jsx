@@ -28,7 +28,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
 				style={{
 					background: `url(${imgUrl})`,
 					backgroundSize: 'cover',
-					height: 250 ,
+					height: 250,
 					width: 'auto',
 					objectFit: 'cover',
 					layout: 'fill',
@@ -40,17 +40,23 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
 						href={gitUrl}
 						target='_blank'
 					>
-						<CodeBracketIcon aria-label='Visualiser le code' className='h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white' />
+						<CodeBracketIcon
+							aria-label='Visualiser le code'
+							className='h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white'
+						/>
 					</Link>
 					<div
 						className='h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/bislink'
 						onClick={openSlideshow}
 					>
-						<EyeIcon aria-label='Visualiser les images' className='h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/bislink:text-white' />
+						<EyeIcon
+							aria-label='Visualiser les images'
+							className='h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/bislink:text-white'
+						/>
 					</div>
 				</div>
 			</div>
-			
+
 			<div className='text-white mt-3 rounded-b-xl bg-[#181818] py-6 px-4'>
 				<h3 className='text-xl font-semibold mb-2'>{title}</h3>
 				<p className='text-[#ADB7BE]'>
@@ -63,6 +69,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
 						width={24}
 						height={24}
 						onClick={toggleDescription}
+						className=' cursor-pointer '
 					/>
 				</p>
 			</div>

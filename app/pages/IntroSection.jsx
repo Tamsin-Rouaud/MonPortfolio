@@ -49,7 +49,7 @@ const IntroSection = () => {
 							repeat={2}
 						/>
 					</h1>
-					<p className=' text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl z-10'>
+					<p className=' text-slate-300 text-base sm:text-lg mb-6 lg:text-xl z-10'>
 						Une idée en tête, un projet de site ? Vous êtes au bon endroit.
 					</p>
 					<div>
