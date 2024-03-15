@@ -10,18 +10,6 @@ const IntroSection = () => {
 
 	return (
 		<section className='lg:py-16'>
-			<Head>
-				<title>Tamsin Rouaud - Développeuse Web Front-end</title>
-				<meta
-					name='description'
-					content="Découvrez mon profil, Tamsin Rouaud, développeuse web front-end passionnée par la création d'expériences web exceptionnelles. Explorez mon portfolio et mes compétences."
-				/>
-				<link
-					rel='preload'
-					href='/public/images/avatar-photo.webp'
-					as='image'
-				/>
-			</Head>
 			<div className='grid grid-cols-1 sm:grid-cols-12'>
 				<motion.div
 					initial={{ opacity: 0, scale: 0.5 }}

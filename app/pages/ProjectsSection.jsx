@@ -65,13 +65,6 @@ const ProjectsSection = () => {
 
 	return (
 		<section id='projects'>
-			<Head>
-				<title>Mes Projets - Développeuse Web Front-end</title>
-				<meta
-					name='description'
-					content="Découvrez mes projets. Explorez mes applications web, mes sites mobiles et d'autres créations développées avec passion et expertise."
-				/>
-			</Head>
 			<h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
 				Mes Projets
 			</h2>

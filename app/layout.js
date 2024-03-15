@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 				<title>Portfolio by Tamsin Rouaud</title>
 				<meta
 					name='description'
-					content='Vous recherchez un développeur Web pour une idée, un projet en tête, une maquette ? Contactez-moi !'
+					content="Découvrez mon profil, Tamsin Rouaud, développeuse web front-end passionnée par la création d'expériences web exceptionnelles. Explorez mon portfolio et mes compétences."
 				/>
 				<meta
 					name='keywords'

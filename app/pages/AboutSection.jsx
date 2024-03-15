@@ -4,7 +4,7 @@ import Image from 'next/image';
 import TabButton from '../components/TabButton';
 import Head from 'next/head';
 
-// Importe mes données depuis votre fichier JSON
+// Importe mes données depuis mon fichier JSON
 import jsonData from '../../public/datasPorfolio.json';
 
 const AboutSection = () => {
@@ -18,7 +18,7 @@ const AboutSection = () => {
 	};
 
 	const content = (id) => {
-		const section = jsonData[0]; // Permet d'accéder à la première section de votre JSON
+		const section = jsonData[0]; // Permet d'accéder à la première section de mon JSON
 		const skillsAndFormation = section.skillsAndFormation;
 
 		switch (id) {
@@ -45,16 +45,6 @@ const AboutSection = () => {
 
 	return (
 		<section id='about' className='text-white'>
-			<Head>
-				<title>
-					À propos de moi - Tamsin Rouaud, Développeuse Web Front-end
-				</title>
-				<meta
-					name='description'
-					content='Découvrez qui je suis et mes compétences en tant que développeuse web front-end. Tamsin Rouaud, spécialisée dans les technologies telles que JavaScript, React, Next.js, et plus encore.'
-				/>
-			</Head>
-
 			<div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 '>
 				<Image
 					src='/images/laptop.webp'
