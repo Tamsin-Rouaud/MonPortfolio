@@ -4,7 +4,7 @@ import GithubIcon from '../../public/github-icon.svg';
 import LinkedinIcon from '../../public/linkedin-icon.svg';
 import Link from 'next/link';
 import Image from 'next/image';
-import Head from 'next/head';
+
 
 const EmailSection = () => {
 	const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -73,7 +73,7 @@ const EmailSection = () => {
 							id='email'
 							className='bg-[#18191E] border border-[#33353F] placehholder-[#9CA2A9] text-gray-100 text-sm rounded-lg w-full p-2.5'
 							required
-							placeholder='Exemple: votreemail@votrefournisseur.fr'
+							placeholder='Email@votrefournisseur.fr'
 						/>
 					</div>
 					<div className='mb-6'>

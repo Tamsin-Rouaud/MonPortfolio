@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import ProjectTag from '../components/ProjectTag';
 import { motion, useInView } from 'framer-motion';
-import Head from 'next/head';
+
 
 const ProjectsSection = () => {
 	const [tag, setTag] = useState('Web');
@@ -105,5 +105,5 @@ const ProjectsSection = () => {
 	);
 };
 
-// Exporte le composant ProjectsSection comme composant par défaut.
+
 export default ProjectsSection;

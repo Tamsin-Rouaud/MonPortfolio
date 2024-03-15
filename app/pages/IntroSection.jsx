@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Head from 'next/head';
+
 
 const IntroSection = () => {
 	const href = '#contact';

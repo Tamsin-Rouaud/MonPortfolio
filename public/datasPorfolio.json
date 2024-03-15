@@ -34,10 +34,11 @@
 				"image": "/images/projects/grimoire-capture1.webp",
 				"tag": ["Web"],
 				"gitUrl": "https://github.com/Tamsin-Rouaud/MonVieuxGrimoire",
-				"previewUrl": ["/images/projects/grimoire-capture1.webp",
-				"/images/projects/grimoire-capture2.webp",
-				"/images/projects/grimoire-capture3.webp",
-				"/images/projects/grimoire-capture4.webp"
+				"previewUrl": [
+					"/images/projects/grimoire-capture1.webp",
+					"/images/projects/grimoire-capture2.webp",
+					"/images/projects/grimoire-capture3.webp",
+					"/images/projects/grimoire-capture4.webp"
 				]
 			},
 			{
@@ -88,7 +89,11 @@
 				"Photoshop",
 				"Figma"
 			],
-			"formation": ["Langue Maternelle anglais", "BAC"]
+			"formation": [
+				"Formation Développeur Web (Bac+2)",
+				
+				"Bilingue anglais"
+			]
 		}
 	}
 ]
